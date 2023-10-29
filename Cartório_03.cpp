@@ -128,6 +128,7 @@ int main()
 		printf("\t1 - Registrar Nomes\n");//tela inicial
 		printf("\t2 - Consultar Nomes\n");//tela inicial
 		printf("\t3 - Deletar Nomes\n");//tela inicial
+		printf("\t4 - Sair do programa\n");//tela inicial
 	
 		scanf("%d",&opcao);//entrada do usuario
 	
@@ -145,6 +146,11 @@ int main()
 			
 			case 3:
 			deletar();
+			break;
+			
+			case 4:
+			printf("Obrigador por utilizar o sistema.\n");
+			exit(0);
 			break;
 			
 			default:
